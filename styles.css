@@ -5,12 +5,15 @@ body {
 h1 {
     color: #46484c;
     text-align: center;
+    font-family:'Kalam', cursive;
+    font-size: 50px;
 }
 
 p {
     color: #8b8b8bcc;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
 }
 /*ul {
   border: 2px solid rebeccapurple;

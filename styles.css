@@ -3,10 +3,10 @@ body {
 }
 
 h1 {
-    color: #46484c;
+    color: #025157;
     text-align: center;
-    /*font-family:'Kalam', cursive;*/
-    font-size: 50px;
+    font-family:"Alegreya", serif;
+    font-size: 60px;
 }
 
 p {
@@ -74,7 +74,7 @@ li {
 }
 
 .main {
-  margin-top: 285x;
+  margin-top: 320px;
   text-align: center;
 }
 
@@ -99,9 +99,9 @@ li {
   border-radius: 5px;
 }
 
-.publish {
-  /* container styles if any */
-}
+/*.publish {
+  /* container styles if any 
+}*/
 
 .publish h3 {
   font-family: "Alegreya", serif;
@@ -167,4 +167,109 @@ li {
    right:0;
    background-color: #fffbf7;
 }
-/* cambios a task/001/changeBckcolor */
+.growing{
+  background-color: #a1d683;
+  height: 850px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-self: center;
+}
+.artigrowing{
+  width:40%;
+  margin-top: 90px;
+  /*margin-left:15%;*/
+}
+.artigrowing h1{
+    font-family: "Alegreya", sans-serif;
+    font-size: 3.5rem;
+    line-height: 61px;
+    color: #025157;
+    text-align: left;
+    padding:0;
+    margin:0;
+    margin-bottom: 1rem;
+  
+}
+.artigrowing p{
+  color:black;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  padding: 0;
+  margin:0;
+  margin-bottom: 1rem;
+}
+.artigrowing button{
+  background-color:#025157 ;
+  height: 2.5rem;
+  color: white;
+  border-radius: 8%;
+  border: none;
+  font-size: 1.25 rem;
+}
+.imgmarcas{
+  width:99%;
+  margin: 10px 10px;
+}
+.casosestudio{
+  background-color: white;
+  width:20%;
+  height: 85%;
+  margin-top: 70px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*margin-left: 10%;*/
+}
+.casosestudio >* {
+  margin-left: 10px;
+}
+.casosestudio img{
+  margin: 0;
+}
+.logomambe{
+  height: 60px;
+  width: 70px ;
+  align-self: flex-end;
+}
+.casosestudio h3{
+  font-family:"Open Sans", sans-serif ;
+  font-size:1rem;
+  color: #343a40;
+  margin-bottom: 5px;
+}
+.howmambe{
+  font-size:1.75rem;
+  color:black;
+  line-height: 1.5;
+  font-family:"Open Sans", sans-serif ;
+  margin-top: 5px;
+}
+.iconoaudiencia{
+  display:flex;
+  flex-direction: row;
+  align-content: space-between;
+  box-sizing:border-box
+}
+.iconoaudiencia aside{
+   width:30%;
+   text-orientation:upright ;
+}
+.p-audiencia{
+  font-size: 1rem;
+  margin-top: 0;
+  width: 90%;
+}
+.casosestudio button{
+  background-color:#025157 ;
+  height: 3rem;
+  width: 12rem;
+  color: white;
+  border-radius: 8%;
+  border: none;
+  font-size: 1.5 rem;
+  align-self: center;
+  margin-bottom: 15px;
+}

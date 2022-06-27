@@ -342,13 +342,15 @@ iframe{
 }
 .casosestudio .logomambe{
   position: absolute;
-  top:220px;
+  top:14rem;    /*35%;*/
   right: 5px;
   z-index: 1;
-  height: 70px;
-  width: 70px ;
+  /*height: 70px;
+  width: 70px ;*/
+  height: 10%;
+  width: 25%;
   background-color: yellow;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 .casosestudio h4{
   font-family:"Slabo 27px", serif; ;
@@ -391,6 +393,90 @@ iframe{
   margin-bottom: 15px;
 }
 /*termina seccion de casos de estudio*/
+
+/* empieza seccion de howdoesmatchaworks */
+.howdoesmatchaworks{
+  display:flex;
+  flex-direction: column;
+}
+.howdoesheader {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:5% 20% 5% 20%
+}
+.howdoesheader h1{
+  font-size: 3.5rem;
+}
+.howdoesheader p{
+  font-size: 1.25rem;
+  color:#46484c;
+  line-height: 1.5;
+}
+.howdoesheader p a{
+  text-decoration: none;
+  color:#03d103;
+}
+.howdoesmatchaworks .imggrids{
+  display:grid;
+  grid-template:repeat(1,1fr)/repeat(4,1fr);
+  margin:5%;
+  /*padding:5%;*/
+  justify-content:space-between;
+}
+
+.imggrids article figure .imgdoes1{
+  margin-top: 5%;
+  margin-left: 5%;
+  width:10%; 
+  height: 10%;
+  /*vertical-align:bottom ;*/
+}
+.howdoesmatchaworks .imggrids article{
+  border-style: solid;
+  border-width: 1px;
+  margin:5%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.howdoesmatchaworks .imggrids .divi{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left:5%;
+  padding-bottom: 0;
+  width: 90%;
+  /*background-color: #03d103;*/
+  height: 90%;
+
+}
+.imggrids article .divi .imgdoes2{
+  margin-top: 80%;
+  width:80%; 
+  align-self: center;
+  /*vertical-align:bottom ;*/
+}
+.howdoesmatchaworks .imggrids article .divi h3{
+  margin-top:2%;
+  font-size: 2rem;
+  font-family: "Alegreya", serif;
+  color:#025157;
+}
+.howdoesmatchaworks .imggrids article .divi p{
+  font-size: 1rem;
+  color:#46484c;
+  /*width: 60%;*/
+}
+.imggrids article .divi a{
+  text-decoration: none;
+  color:#03d103;
+}
+
+/* termina seccion de howdoesmatchaworks */
+
+
 /* media queries  */
 
 /* @media (max-width:575px){
@@ -485,9 +571,25 @@ iframe{
   .artigrowing .imgmarcas{
     margin-bottom: 25px;
   }
-  .casosestudio .logomambe{
-    display: none;
+
+  /* empieza how does matcha works */
+  .howdoesmatchaworks .imggrids{
+    /*grid-template: repeat(4, 1fr) / 1fr;*/
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat( 4,1fr);
+    margin:0%;
+   /* justify-content:center;
+    align-content: center;*/
   }
 
+}
 
+/*@media  (min-width: 576px) and (max-width: 680px) {*/
+@media  (min-width: 576px) and (max-width: 679px) {
+  .casosestudio .logomambe{
+    object-fit: scale-down;
+    height: 6%;
+    width:20%;
+    /*top )*/
+  }
 }

@@ -319,6 +319,7 @@ iframe{
   border: none;
   font-size: 1.25 rem;
 }
+
 .casosestudio{
   background-color: white;
   display:flex;
@@ -326,13 +327,11 @@ iframe{
   justify-content: space-between;
   position: relative;
   /*height: 15%;*/
-
   /*margin-top:5%;
   margin-bottom: 10%;
   /*width:20%;
   height: 85%;
   margin-top: 70px;*/
-
 }
 .casosestudio >* {
   margin-left: 10px;
@@ -391,21 +390,7 @@ iframe{
   align-self: center;
   margin-bottom: 15px;
 }
-/*
-
-.casosestudio button{
-  background-color:#025157 ;
-  height: 3rem;
-  width: 12rem;
-  color: white;
-  border-radius: 8%;
-  border: none;
-  font-size: 1.5 rem;
-  align-self: center;
-  margin-bottom: 15px;
-}
-*/
-
+/*termina seccion de casos de estudio*/
 /* media queries  */
 
 /* @media (max-width:575px){
@@ -467,7 +452,7 @@ iframe{
     line-height: 1.2;
   }
 
-
+/* tarjetas (cards) */ 
   .features {
     grid-template: repeat(4, 1fr) / 1fr;
     height:100%;
@@ -485,5 +470,24 @@ iframe{
   .feature-image {
     display: none;
   }
-}
+/* casos de estudio*/
+  .growing{
+     flex-direction: column;
+     max-width: 100%;
+     
+  }
+  .growing .artigrowing {
+    width: 100%;
+  }
+  .growing .casosestudio{
+    width: 100%;
+  }
+  .artigrowing .imgmarcas{
+    margin-bottom: 25px;
+  }
+  .casosestudio .logomambe{
+    display: none;
+  }
 
+
+}

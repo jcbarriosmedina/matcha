@@ -281,11 +281,12 @@ iframe{
 /* comienza sección casos de estudio */
 .growing{
   background-color: #a1d683;
-  padding:5% 10% 5% 10%;
+  /*padding:5% 10% 5% 10%;*/
   display:flex;
   flex-direction:row;
   justify-content: space-around; 
 }
+
 .artigrowing{
   display: flex;
   flex-direction: column;
@@ -476,6 +477,56 @@ iframe{
 
 /* termina seccion de howdoesmatchaworks */
 
+/* succes-stories */
+.success-stories {
+  background-color: #A1D683;
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.success-stories .overview {
+  flex: 2;
+  padding-right: 100px;
+}
+.success-stories .overview h2 {
+  font-family: "Alegreya", serif;
+  font-size: 51px;
+  line-height: 61px;
+  color: #025157;
+}
+.success-stories .overview p {
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.success-stories .overview button {
+  font-size: 14px;
+  padding: 12px 12px 6px 12px;
+  border-radius: 8px;
+  height: 45px;
+  font-weight: 600;
+  margin-left: 0;
+}
+.success-stories .overview img {
+  width: 500px;
+  max-width: 100%;
+}
+
+.card-circle everly{
+  max-width: 100%;
+  width:20%;
+}
+.card-img-top{
+  max-width: 100%;
+  width:50%
+}
+
+.results img{
+   width:15%;
+   max-width: 100;
+}
 
 /* media queries  */
 

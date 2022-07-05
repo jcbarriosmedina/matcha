@@ -533,6 +533,11 @@ iframe{
    max-width: 100;
 }
 
+/*  sesion 08 hover */
+.texto-boton:hover{
+  background-color:#67b54b;
+}
+
 /* media queries  */
 
 /* @media (max-width:575px){
